@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/cd
+# catalog-date 2008-05-06 19:08:04 +0200
+# catalog-license gpl
+# catalog-version 1.3
 Name:		texlive-cd
 Version:	1.3
 Release:	1
@@ -50,6 +56,7 @@ case (it copes with both normal and slim cases).
 #- source
 %doc %{_texmfdistdir}/source/latex/cd/cd.dtx
 %doc %{_texmfdistdir}/source/latex/cd/cd.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,3 +67,5 @@ case (it copes with both normal and slim cases).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
