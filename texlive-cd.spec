@@ -5,8 +5,8 @@
 # catalog-license gpl
 # catalog-version 1.3
 Name:		texlive-cd
-Version:	1.3
-Release:	10
+Version:	1.4
+Release:	1
 Summary:	Typeset CD covers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cd
