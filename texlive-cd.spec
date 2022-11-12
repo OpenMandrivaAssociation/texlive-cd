@@ -5,9 +5,9 @@ Summary:	Typeset CD covers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cd
 License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cd.r34452.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cd.doc.r34452.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cd.source.r34452.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cd.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cd.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cd.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
