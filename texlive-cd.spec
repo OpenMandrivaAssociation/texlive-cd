@@ -1,6 +1,6 @@
 Name:		texlive-cd
 Version:	34452
-Release:	1
+Release:	2
 Summary:	Typeset CD covers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cd
