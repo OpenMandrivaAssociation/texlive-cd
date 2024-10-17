@@ -3,7 +3,7 @@ Version:	34452
 Release:	2
 Summary:	Typeset CD covers
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cd
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/cd
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cd.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cd.doc.r%{version}.tar.xz
